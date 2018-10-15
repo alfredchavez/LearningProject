@@ -1,0 +1,15 @@
+##################################
+# Reinforcement Learning Project #
+##################################
+
+This project uses Reinforcement learning trying to solve a problem of product acquisition.
+As requirement you just need Standard Python 2.7
+
+Run it like this
+$ python2.7 main.py
+
+The characteristics of the algorithm need to be specified in the configuration file "config.json"
+The data must be specified in a csv file, this csv file has the following structure:
+    - Provider name, product, cost
+The randomcsv.py file is just an auxiliary script that creates a csv file for test, it uses
+random name generation from https://gist.github.com/noxan/5845351.
